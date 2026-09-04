@@ -4,6 +4,8 @@ A fully responsive business/agency landing page built with vanilla HTML, CSS, an
 
 ## 🔗 Live Demo
 
+https://naaima21.github.io/business-website/
+
 ## ✨ Features
 
 - Fully responsive design (desktop, tablet, and mobile breakpoints)
