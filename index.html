@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Agency | Modern Web Solutions</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">Brand<span>X</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact" class="btn-nav">Contact Us</a></li>
+      </ul>
+      <div
+        class="hamburger"
+        id="hamburger"
+        role="button"
+        aria-label="Toggle menu"
+        tabindex="0"
+      >
+        ☰
+      </div>
+    </nav>
+
+    <header class="hero" id="home">
+      <div class="hero-content">
+        <h1>Grow Your Business With Us</h1>
+        <p>
+          We provide modern, responsive, and user-friendly digital solutions to
+          help your brand stand out.
+        </p>
+        <a href="#services" class="btn-primary">Explore Services</a>
+      </div>
+    </header>
+
+    <section class="services" id="services">
+      <h2>Our Services</h2>
+      <div class="services-container">
+        <div class="card">
+          <h3>UI/UX Design</h3>
+          <p>
+            Beautiful, user-centric designs crafted carefully on Figma to ensure
+            the best user experience.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>
+            Fast, responsive, and modern websites built with the latest HTML,
+            CSS, and JavaScript technologies.
+          </p>
+        </div>
+        <div class="card">
+          <h3>SEO Optimization</h3>
+          <p>
+            Rank higher on search engines and get more organic traffic with our
+            proven SEO strategies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <h2>What Our Clients Say</h2>
+      <div class="testimonial-container">
+        <div class="testimonial-box">
+          <p>
+            "They completely transformed our website. The new design is stunning
+            and works perfectly on mobile!"
+          </p>
+          <h4>- Sarah Johnson, CEO</h4>
+        </div>
+        <div class="testimonial-box">
+          <p>
+            "Highly professional team. The delivery was fast, and the code
+            quality was top-notch. Highly recommended."
+          </p>
+          <h4>- Ahmed Khan, Startup Founder</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Get In Touch</h2>
+      <p>Let's discuss your next big project.</p>
+
+      <form id="contactForm" class="contact-form">
+        <div class="input-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            rows="4"
+            placeholder="How can we help you?"
+          ></textarea>
+        </div>
+        <span id="formMessage" class="form-message"></span>
+        <button type="submit" class="btn-submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 BrandX Agency. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
