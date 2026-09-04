@@ -50,5 +50,3 @@ https://naaima21.github.io/business-website/
 Have a similar project in mind? Feel free to reach out — I'd love to help bring your idea to life.
 
 ---
-
-_This project was built as part of my front-end development portfolio._
